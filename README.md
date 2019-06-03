@@ -13,3 +13,5 @@
 #### Using physionet MITBIH .atr
  * https://github.com/ankur219/ECG-Arrhythmia-classification
 
+## reference 
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897569/
