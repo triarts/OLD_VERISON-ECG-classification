@@ -1,6 +1,7 @@
 # ECG-classification
 * Kaggle dataset : https://www.kaggle.com/shayanfazeli/heartbeat
   * direct download from : https://drive.google.com/open?id=1uBsf_3kGqYoHUccYYArNquejQZhEsz-u
+    * MIT-BIH(5 class) and PTB(2 class) 
 * Physionet mit-bih : https://www.physionet.org/physiobank/database/mitdb/
 ### code from : 
 #### Using kaggle dataset : 
