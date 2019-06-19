@@ -1,4 +1,5 @@
 # Load libraries
+import requests
 from flask import Flask, render_template, request, jsonify
 from werkzeug import secure_filename
 import pandas as pd
@@ -69,7 +70,9 @@ def predict():
             count+=1
 
         print('Sending result')
+        ifttt_url='https://maker.ifttt.com/trigger/HeartBeat_Alert/with/key/eSRGXYgXeE0FL4gXYQ35dLtHrnpZh6nyOPfgWROu0DG?value1='
         with graph.as_default():
+            requests.get(ifttt_url+str(abnormal_hb_index)).content
             data["prediction"] = str(abnormal_hb_index)
             data["success"] = True
 
