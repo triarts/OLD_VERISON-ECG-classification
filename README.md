@@ -1,3 +1,6 @@
+# check latest script
+google drive link : https://drive.google.com/open?id=1BT_A6GxjFPWxMZXknBx-S5hJ4EqRs2ZJ
+
 # ECG-classification
 * Kaggle dataset : https://www.kaggle.com/shayanfazeli/heartbeat
   * direct download from : https://drive.google.com/open?id=1uBsf_3kGqYoHUccYYArNquejQZhEsz-u
