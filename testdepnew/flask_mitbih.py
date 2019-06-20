@@ -18,7 +18,7 @@ global graph
 clear_session()
 graph = tf.get_default_graph()
 model = load_model(file_name)
-#model.load_weights(file_name)
+#if you do not use 'with graph.as_default():' then use this one
 model._make_predict_function()
 
 
@@ -43,6 +43,7 @@ def predict():
     # if parameters are found, return a prediction
     hb_filename = "mitbih_test10.csv";
     if (params != None):
+        #with graph.as_default(): # other solution to remove error in predict
         print('Load Heartbeat')
         print(params)
         # load received file
@@ -55,26 +56,29 @@ def predict():
         print('Do Prediction')
         #load to model
         pred_test = model.predict(arr)
+        #jangan2 errornya gara2 di luar with graph.asdefault
 
         print('Softmax')
-        #softmax
+        #softmax -> pred test result as 
         pred_test = np.argmax(pred_test, axis=-1)
 
         print('Check index position')
+        ifttt_url='https://maker.ifttt.com/trigger/HeartBeat_Alert/with/key/eSRGXYgXeE0FL4gXYQ35dLtHrnpZh6nyOPfgWROu0DG?value1='
         count=0
         abnormal_hb_index = 0
         for x in pred_test:
-            if x == 1:
+            if x > 0: 
                 #print(str(count)+' '+str(x))
                 abnormal_hb_index = count
+                #Send alert message
+                print('Trigger Alert')
+                requests.get(ifttt_url+str(abnormal_hb_index)).content
             count+=1
 
         print('Sending result')
-        ifttt_url='https://maker.ifttt.com/trigger/HeartBeat_Alert/with/key/eSRGXYgXeE0FL4gXYQ35dLtHrnpZh6nyOPfgWROu0DG?value1='
-        with graph.as_default():
-            requests.get(ifttt_url+str(abnormal_hb_index)).content
-            data["prediction"] = str(abnormal_hb_index)
-            data["success"] = True
+        
+        data["prediction"] = str(abnormal_hb_index)
+        data["success"] = True
 
 
     # return a response in json format 
