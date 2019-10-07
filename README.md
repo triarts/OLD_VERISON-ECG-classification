@@ -17,6 +17,7 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
   * https://github.com/koen-aerts/ECG_ML
 #### Using physionet MITBIH .atr (2D convolutional) vv
  * https://github.com/ankur219/ECG-Arrhythmia-classification
+ * https://github.com/irakaundal/arrhythmia-cnn
 
 ## reference 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897569/
