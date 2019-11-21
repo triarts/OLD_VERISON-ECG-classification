@@ -11,13 +11,13 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
 #### Using kaggle dataset : 
   * test_final.ipynb = https://github.com/CVxTz/ECG_Heartbeat_Classification/blob/master/code/baseline_mitbih.py
   * https://github.com/mmontana/ECG-heartbeat-classification note: ada teknik smoothingnya
-  * mathlab and python (SVM) vv : https://github.com/mondejar/ecg-classification
+  * mathlab and python (SVM) vv : https://github.com/mondejar/ecg-classification note: penjelasannya cukup jelas
 #### Using physionet MITBIH -> signal -> wfdb library
   * https://github.com/Fabrizio1994/ECGClassification
   
 #### mitbih db to csv to 187 beat adn 188 as label  
   * https://github.com/koen-aerts/ECG_ML
-  note: ini yg di pake mmontana
+  note: ini preprocessing yg di pake CVxTz
   
 #### Using physionet MITBIH .atr (2D convolutional) vv
  * https://github.com/ankur219/ECG-Arrhythmia-classification
