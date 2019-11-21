@@ -10,7 +10,7 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
 ### code from : 
 #### Using kaggle dataset : 
   * test_final.ipynb = https://github.com/CVxTz/ECG_Heartbeat_Classification/blob/master/code/baseline_mitbih.py
-  * https://github.com/mmontana/ECG-heartbeat-classification
+  * https://github.com/mmontana/ECG-heartbeat-classification note: ada teknik smoothingnya
   * mathlab and python (SVM) vv : https://github.com/mondejar/ecg-classification
 #### Using physionet MITBIH -> signal -> wfdb library
   * https://github.com/Fabrizio1994/ECGClassification
