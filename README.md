@@ -14,7 +14,11 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
   * mathlab and python (SVM) vv : https://github.com/mondejar/ecg-classification
 #### Using physionet MITBIH -> signal -> wfdb library
   * https://github.com/Fabrizio1994/ECGClassification
+  
+#### mitbih db to csv to 187 beat adn 188 as label  
   * https://github.com/koen-aerts/ECG_ML
+  note: ini yg di pake mmontana
+  
 #### Using physionet MITBIH .atr (2D convolutional) vv
  * https://github.com/ankur219/ECG-Arrhythmia-classification
  * https://github.com/irakaundal/arrhythmia-cnn
