@@ -32,3 +32,4 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
 ## reference 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897569/
 * AAMI class reference : https://www.sciencedirect.com/science/article/pii/S0169260715003314
+https://www.researchgate.net/figure/Mapping-the-MIT-BIH-Arrhythmia-types-to-the-AAMI-Classes_tbl1_267411759
