@@ -31,6 +31,9 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
  * https://github.com/GrayLand119/ECG-ArrhythmiaClassification
  * [https://github.com/daimenspace/ECG-arrhythmia-classification-using-a-2-D-convolutional-neural-network](https://github.com/daimenspace/ECG-arrhythmia-classification-using-a-2-D-convolutional-neural-network.)
  * https://github.com/YeongHyeon/Arrhythmia_Detection_RNN_and_Lyapunov
+ 
+### mimic and other dataset
+ * https://archive.physionet.org/physiobank/database/
 
 ## reference 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897569/
