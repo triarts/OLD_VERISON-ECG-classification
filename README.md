@@ -34,6 +34,7 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
  
 ### mimic and other dataset
  * https://archive.physionet.org/physiobank/database/
+ * https://physionet.org/credential-application/ for grant access
 
 ## reference 
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897569/
