@@ -26,7 +26,7 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
  * https://github.com/ankur219/ECG-Arrhythmia-classification
  * https://github.com/irakaundal/arrhythmia-cnn
  
-#### ECG LSTM
+#### ECG qrst detection with LSTM
  * https://github.com/niekverw/Deep-Learning-Based-ECG-Annotator
  
 #### other
