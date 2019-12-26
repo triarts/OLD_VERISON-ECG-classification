@@ -26,6 +26,9 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
  * https://github.com/ankur219/ECG-Arrhythmia-classification
  * https://github.com/irakaundal/arrhythmia-cnn
  
+#### ECG LSTM
+ * https://github.com/niekverw/Deep-Learning-Based-ECG-Annotator
+ 
 #### other
  * https://github.com/SajadMo/ECG-Heartbeat-Classification-seq2seq-model
  * https://github.com/GrayLand119/ECG-ArrhythmiaClassification
