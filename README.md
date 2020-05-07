@@ -17,6 +17,7 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
     * di pake di hich : Empowering Healthcare IoT Systems with Hierarchical Edge-based Deep Learning
 #### Using physionet MITBIH -> signal -> wfdb library
   * https://github.com/Fabrizio1994/ECGClassification
+  * https://github.com/dave-fernandes/ECGClassifier
   
 #### mitbih db to csv to 187 beat adn 188 as label  
   * https://github.com/koen-aerts/ECG_ML
