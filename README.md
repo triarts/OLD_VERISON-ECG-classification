@@ -29,7 +29,13 @@ flask deployment based on this tutorial : https://towardsdatascience.com/deployi
  
 #### ECG qrst detection with LSTM
  * https://github.com/niekverw/Deep-Learning-Based-ECG-Annotator
- 
+
+#### ECG Heartbeat Classification: A Deep Transferable Representation
+* reference : https://arxiv.org/pdf/1805.00794.pdf
+* preprocesssing : https://github.com/koen-aerts/ECG_ML/blob/master/02_import_mitdb_data.ipynb
+* Model reference 1 : https://github.com/dave-fernandes/ECGClassifier/blob/master/ClassifyECG.ipynb
+* Model reference 2 : https://github.com/CarlosGomes98/ECG-Classification/blob/4d169e38b02da86e5e01006f9b4a9d1d504ebcd9/paper/cnn_paper_mitbih.ipynb
+
 #### other
  * https://github.com/SajadMo/ECG-Heartbeat-Classification-seq2seq-model
  * https://github.com/GrayLand119/ECG-ArrhythmiaClassification
