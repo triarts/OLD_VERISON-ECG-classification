@@ -1,3 +1,9 @@
+# Moved to
+* https://github.com/triarts/ECG-Classification-Gateway
+
+---
+
+
 # check latest script
 google drive link : https://drive.google.com/open?id=1BT_A6GxjFPWxMZXknBx-S5hJ4EqRs2ZJ
 flask deployment based on this tutorial : https://towardsdatascience.com/deploying-keras-deep-learning-models-with-flask-5da4181436a2
